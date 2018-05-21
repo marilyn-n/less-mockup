@@ -1,3 +1,41 @@
+.text-styles,
+main div p {
+  font-family: 'Cursive';
+  font-size: 15px;
+  color: black;
+}
+.default-button,
+button {
+  padding: 1em;
+  border: dotted black;
+  border-radius: 10px;
+}
+button {
+  background-color: #b1dd87;
+}
+button a {
+  text-decoration: none;
+}
+hr {
+  margin: 0px 30px;
+}
+main {
+  background-color: antiquewhite;
+}
+main div p {
+  padding: 1em;
+  line-height: 1.5;
+}
+div {
+  padding: 1em;
+}
+div img {
+  width: 500px;
+  float: right;
+  position: relative;
+  right: 30px;
+}
 body {
-  background: green;
+  background: #dda387;
+  padding: 1em;
 }
