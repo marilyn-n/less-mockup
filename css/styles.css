@@ -1,5 +1,6 @@
 .text-styles,
-main div p {
+main div p,
+.copyright {
   font-family: 'Cursive';
   font-size: 15px;
   color: black;
@@ -7,14 +8,22 @@ main div p {
 .default-button,
 button {
   padding: 1em;
-  border: dotted black;
+  border: solid black;
   border-radius: 10px;
 }
 button {
-  background-color: #b1dd87;
+  position: relative;
+  left: 390px;
+  margin: 30px;
+  padding: 1em 2em;
+  background-color: #cccabd;
+}
+button:hover {
+  background-color: gray;
 }
 button a {
   text-decoration: none;
+  color: black;
 }
 hr {
   margin: 0px 30px;
@@ -35,10 +44,6 @@ div img {
   position: relative;
   right: 30px;
 }
-body {
-  background: #dda387;
-  padding: 1em;
-}
 footer div {
   width: 378.5px;
   float: left;
@@ -52,4 +57,23 @@ footer div ul li {
 }
 footer div ul li a {
   color: black;
+}
+.copyright {
+  background: gray;
+  border-top: solid 2px;
+  padding: 1em;
+  margin-top: 136px;
+}
+.copyright .ankr {
+  margin-left: 85px;
+  color: white;
+  float: right;
+}
+body {
+  background: #dda387;
+  padding: 1em;
+}
+h1 {
+  color: antiquewhite;
+  text-align: center;
 }

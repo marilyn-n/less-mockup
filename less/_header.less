@@ -1,7 +1,16 @@
 button{
+  position: relative;
+  left: 390px;
+  margin: 30px;
+  padding: 1em 2em;
   &:extend(.default-button);
-  background-color: @primary-color;
+  background-color: @third-color;
+  &:hover{
+    background-color: @primary-color;
+  }
   a {
     text-decoration: none;
+    color: black
   }
 }
+
