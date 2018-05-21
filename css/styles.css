@@ -39,3 +39,17 @@ body {
   background: #dda387;
   padding: 1em;
 }
+footer div {
+  width: 378.5px;
+  float: left;
+  background-color: #cccabd;
+}
+footer div ul {
+  margin-left: 80px;
+}
+footer div ul li {
+  list-style: none;
+}
+footer div ul li a {
+  color: black;
+}
